@@ -1,7 +1,10 @@
 def turn_count(board)
   counter = 0
-  while condition
-
+  
+  while counter < 9
+    if board[counter] != " "
+      
+    end
   end
 end
 
