@@ -1,9 +1,7 @@
 def turn_count(board)
-  counter = 0
-  move
-  while counter < 9
-    if board[counter] != " "
-
+  board.each do |item|
+    if item != " "
+      
     end
   end
 end
