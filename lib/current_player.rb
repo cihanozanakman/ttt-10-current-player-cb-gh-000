@@ -1,10 +1,11 @@
 def turn_count(board)
-  counter
+  counter = 0
   board.each do |item|
     if item != " "
       counter += 1
     end
   end
+  
 end
 
 def current_player
